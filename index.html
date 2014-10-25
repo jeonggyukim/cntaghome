@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A layout example with a side menu that hides on mobile, just like the Pure website.">
+
+    <title>CnTAG Home Page</title>
+    <link rel="stylesheet" href="css/pure.css">
+    <!-- <link rel="stylesheet" href="css/side-menu.css"> -->
+    <link rel="stylesheet" href="css/baby-blue.css">
+
+</head>
+
+<body>
+  <!-- Your HTML goes here. Visit purecss.io/layouts/ for some sample
+       HTML code.  -->
+  <div id="layout">
+    <!-- Menu toggle -->
+    <a href="#menu" id="menuLink" class="menu-link">
+      <!-- Hamburger icon -->
+      <span></span>
+    </a>
+    
+    <div id="menu">
+      <div class="pure-menu pure-menu-open">
+        <a class="pure-menu-heading" href="">SNU CnTAG</a>
+	
+        <ul>
+          <!-- <li class="menu-item-divided pure-menu-selected"> -->
+	  <!--   <a href="#">Home</a></li> -->
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#people">People</a></li>
+          <li><a href="#links">Links</a></li>
+        </ul>
+      </div>
+    </div> <!-- End of menu -->
+    
+    <div id="main">
+      <div class="header">
+        <h1>CnTAG Home Page</h1>
+        <h2>Computational and Theoretical Astrophysics Group</h2>
+      </div> <!-- End of header -->
+      
+      <div class="content">
+        <h1 class="content-subhead"><a name="about">About</a></h2>
+        <p>
+          We are Computational and Theoretical Astrophysics Group
+	  (CnTAG) of the <a target="_blank"
+	  href="http://astro.snu.ac.kr">Astronomy Program</a> in the
+	  Department of Physics and Astronomy at Seoul National
+	  University, Korea.  The CnTAG is a participating member of
+	  the
+	  <a target="_blank" href="http://bigbang.snu.ac.kr">Center
+	  for the Exploration of the Origin of the Universe</a>
+	  (CEOU).
+        </p>
+	
+        <h1 class="content-subhead"><a name="research">Research</a></h1>
+        <p>
+	  Our research agenda encompasses a diversity of astrophysical
+	  phenomena involving gas dynamics ranging from formation of
+	  giant molecular clouds, barred and/or spiral galaxies and
+	  star formation therein, regulation of star formation rate in
+	  a galaxy, and dynamics and instability of photoionized gas
+	  around young massive stars.
+	</p>
+	
+        <div class="pure-g">
+          <div class="pure-u-1-8">
+            <img class="pure-img-responsive" src="http://astro.snu.ac.kr/~wkim/images/intro_disk.gif" alt="Peyto Lake">
+          </div>
+          <div class="pure-u-1-8">
+            <img class="pure-img-responsive" src="http://astro.snu.ac.kr/~wkim/images/intro_arm.gif" alt="Train">
+          </div>
+          <div class="pure-u-1-8">
+            <img class="pure-img-responsive" src="http://astro.snu.ac.kr/~wkim/images/intro_mji3d.gif" alt="T-Shirt Store">
+          </div>
+          <div class="pure-u-1-8">
+            <img class="pure-img-responsive" src="http://astro.snu.ac.kr/~wkim/images/intro_GMRI3d.gif" alt="Mountain">
+          </div>
+        </div>
+	
+        <h1 class="content-subhead"><a name="people">People</a></h1>
+        <h3 class="content-subhead">Current Members</a></h2>
+
+	<table class="pure-table">
+	  <thead>
+            <tr>
+              <th>Name</th>
+              <th>Title</th>
+              <th>email</th>
+              <th>Thesis Title</th>
+            </tr>
+	  </thead>
+	  
+	  <tbody>
+            <tr class="pure-table-odd">
+              <td><a target="_blank"
+              href="http://astro.snu.ac.kr/~wkim">Woong-Tae
+              Kim</a></td>
+              <td>Professor</td>
+              <td>wkim</td>
+              <td>-</td>
+            </tr>
+
+            <tr>
+              <td>Yonghwi Kim</td>
+              <td>PhD Candidate</td>
+              <td>kimyh</td>
+              <td>?</td>
+            </tr>
+
+            <tr class="pure-table-odd">
+              <td>Woo-Young Seo</td>
+              <td>PhD Candidate</td>
+              <td>seowy</td>
+              <td>?</td>
+            </tr>
+
+            <tr>
+              <td><a target="_blank"
+              href="http://astro.snu.ac.kr/~jgkim">Jeong-Gyu
+              Kim</a></td>
+              <td>PhD Candidate</td>
+              <td>jgkim</td>
+              <td>Dynamical Expansion of Dusty and Magnetized H II regions</td>
+            </tr>
+
+            <tr class="pure-table-odd">
+              <td>Sungwon Kwak</td>
+              <td>Integrated PhD</td>
+              <td>swkwak</td>
+              <td>?</td>
+            </tr>
+
+	  </tbody>
+	</table>
+        <h1 class="content-subhead"><a name="links">Links</a></h1>
+
+	
+      </div> <!-- End of content -->
+    </div> <!-- End of main -->
+  </div> <!-- End of layout -->
+
+
+<script src="js/ui.js"></script>
+
+</body>
+</html>
